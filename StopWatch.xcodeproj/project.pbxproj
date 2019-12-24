@@ -10,9 +10,10 @@
 		6F72413923AE6DF200990210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72413823AE6DF200990210 /* AppDelegate.swift */; };
 		6F72413B23AE6DF200990210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72413A23AE6DF200990210 /* SceneDelegate.swift */; };
 		6F72413D23AE6DF200990210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72413C23AE6DF200990210 /* ViewController.swift */; };
-		6F72414023AE6DF200990210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72413E23AE6DF200990210 /* Main.storyboard */; };
 		6F72414223AE6DF500990210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F72414123AE6DF500990210 /* Assets.xcassets */; };
 		6F72414523AE6DF500990210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72414323AE6DF500990210 /* LaunchScreen.storyboard */; };
+		6F72414D23AE6E1000990210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72414C23AE6E1000990210 /* Main.storyboard */; };
+		6F72414F23AE6E2600990210 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72414E23AE6E2600990210 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		6F72413823AE6DF200990210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F72413A23AE6DF200990210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F72413C23AE6DF200990210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6F72413F23AE6DF200990210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F72414123AE6DF500990210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F72414423AE6DF500990210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F72414623AE6DF500990210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F72414C23AE6E1000990210 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6F72414E23AE6E2600990210 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 				6F72413823AE6DF200990210 /* AppDelegate.swift */,
 				6F72413A23AE6DF200990210 /* SceneDelegate.swift */,
 				6F72413C23AE6DF200990210 /* ViewController.swift */,
-				6F72413E23AE6DF200990210 /* Main.storyboard */,
+				6F72414E23AE6E2600990210 /* RoundedButton.swift */,
+				6F72414C23AE6E1000990210 /* Main.storyboard */,
 				6F72414123AE6DF500990210 /* Assets.xcassets */,
 				6F72414323AE6DF500990210 /* LaunchScreen.storyboard */,
 				6F72414623AE6DF500990210 /* Info.plist */,
@@ -125,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F72414D23AE6E1000990210 /* Main.storyboard in Resources */,
 				6F72414523AE6DF500990210 /* LaunchScreen.storyboard in Resources */,
 				6F72414223AE6DF500990210 /* Assets.xcassets in Resources */,
-				6F72414023AE6DF200990210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +144,13 @@
 				6F72413D23AE6DF200990210 /* ViewController.swift in Sources */,
 				6F72413923AE6DF200990210 /* AppDelegate.swift in Sources */,
 				6F72413B23AE6DF200990210 /* SceneDelegate.swift in Sources */,
+				6F72414F23AE6E2600990210 /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6F72413E23AE6DF200990210 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F72413F23AE6DF200990210 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6F72414323AE6DF500990210 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
